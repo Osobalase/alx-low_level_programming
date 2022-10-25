@@ -4,7 +4,7 @@
  *_puts -> this is a funtion that puts
  *@str: a parameter to _puts funtions
  */
-void _puts(char *str);
+void _puts(char *str)
 {
 	for (; *str != '\0'; str++)
 	{
