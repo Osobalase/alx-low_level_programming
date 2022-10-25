@@ -2,7 +2,7 @@
 
 /**
  *_puts -> this is a funtion that puts
- *@str: a para,eter to _puts funtions
+ *@str: a parameter to _puts funtions
  */
 void _puts(char *str);
 {
