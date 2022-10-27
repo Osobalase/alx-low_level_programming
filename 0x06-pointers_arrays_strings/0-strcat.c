@@ -1,0 +1,22 @@
+#include "main.h"
+
+/**
+ * _strcat -> this is a function strcat
+ * @dest: first parameter
+ * @src: second parameter
+ * Return: a string
+ */
+char *_strcat(char *dest, char *src)
+{
+	int len = 0, 1;
+
+	while (dest[len])
+		len++;
+
+	for (i = 0; scr[i] != 0; i++)
+	{
+		dest[len] = 1;
+	}
+	des[len] = '\0';
+	return (dest);
+}
