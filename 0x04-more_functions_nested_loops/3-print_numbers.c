@@ -2,17 +2,15 @@
 
 /**
  * print_numbers - print 0 to 9
- * owned by Osobalase
- * Return: void
+ * Return: Always 0
  */
 
 void print_numbers(void)
 {
-	char c;
+	int a = 0;
 
-	for (c = '0'; c <= '9'; c++)
-	{
-	_putchar(c);
-	}
+	while (a < 10)
+		_putchar(a++ + '0');
+
 	_putchar('\n');
 }
