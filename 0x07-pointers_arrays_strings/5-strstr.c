@@ -2,7 +2,7 @@
 
 /**
  * _strstr - locate a substring
- * @haystack: the string to find
+ * @haystack: the string to search
  * @needle: string to find
  *
  * Return: char value
@@ -11,7 +11,7 @@ char *_strstr(char *haystack, char *needle)
 {
 	int a = 0, b = 0;
 
-	while (hatstack[a])
+	while (haystack[a])
 	{
 		while (needle[b])
 		{
